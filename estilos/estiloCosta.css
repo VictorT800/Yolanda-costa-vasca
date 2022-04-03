@@ -1,0 +1,157 @@
+
+
+body {
+  background-image: url(../imagenes/just-waves.png);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #eaf8ff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  margin-top: 0;
+  padding-top: 18px;
+  text-align: center;
+  letter-spacing: 2.5px;
+}
+
+h2 {
+  color: #004a6f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+figure {
+  float: left;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 2rem;
+}
+
+pre {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.inicio {
+  background-color: #004a6f;
+}
+
+.cuerpo {
+  max-width: 850px;
+  margin: auto;
+  padding: 20px;
+  background-color: #e8fffb;
+}
+
+
+.nav {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+  /*padding-top: 10px;*/
+}
+
+.nav a {
+  text-decoration: none;
+  color: #c4eaf5;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  color: #cdff00;
+}
+
+.flecha {
+  width: 30px;
+  padding-bottom: 8px;
+  display: block;
+}
+
+#INDICE, #Historia, #Geografia, #Playas {
+  border-bottom: 3px solid #004a6f;
+}
+
+.imagenes figure {
+  float: none;
+  text-align: center;
+  margin: 0;
+}
+
+.imagenes p {
+  text-align: center;
+}
+
+.peq {
+  display: inline-block;
+  margin: auto;
+}
+
+.peq img {
+  max-width: 200px;
+}
+
+.izquierda {
+  float: left;
+}
+
+.wiki {
+  display: inline-block;
+  position: relative;
+  left: 24%;
+  line-height: 70px;
+  padding-top: 25px;
+}
+
+.wiki a {
+  padding-left: 20px;
+  color: #004a6f;
+  vertical-align: middle;
+}
+
+.wiki a:hover {
+  color: #ff6d02;
+}
+
+.pie {
+  background: #212121;
+  margin-bottom: 0;
+  padding: 15px 0px;
+}
+
+.pie p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.pie abbr {
+  cursor: help;
+}
+.volver {
+  line-height: 40px;
+  background-color: #012f47;
+  text-align: center;
+}
+
+.volver a {
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #c4eaf5;
+}
+
+.volver a:hover {
+  color: #cdff00;
+}
+
+.imagen-cabecera figure img {
+  max-width: 100%;
+}
